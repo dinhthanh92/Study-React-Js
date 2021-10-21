@@ -53,8 +53,8 @@ class App extends Component {
  editData(keys, value){
    
   const {data} = this.state
-  const values = data.find(key => key.key === keys)
-  const index =  data.indexOf(values)
+  const valueData = data.find(item => item.key === keys)
+  const index =  data.indexOf(valueData)
 
     this.setState((state) => {
       const { data } = state

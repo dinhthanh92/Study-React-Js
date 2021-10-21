@@ -97,7 +97,7 @@ export default class Tables extends Component{
                   </FormEdit>
                   
                   {/* Delete Data */}
-                  <Popconfirm placement="topLeft" title={texts} onConfirm={()=>this.deleteData(record)} okText="Yes" cancelText="No">
+                  <Popconfirm placement="topLeft" title={texts} onConfirm={()=>this.deleteData(text, record)} okText="Yes" cancelText="No">
                     <Button >Delete</Button>
                   </Popconfirm>
                 </Space>
