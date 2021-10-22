@@ -34,7 +34,6 @@ export default class Tables extends Component{
     message.info('Delete S, uccess');
     this.props.deleteData(item)
 
-    console.log(item)
   }
     render(){
       const texts = 'Are you sure to delete ';
